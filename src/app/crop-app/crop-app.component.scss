@@ -1,0 +1,49 @@
+.image-crop-container {
+  height: 100%;
+  width: 100%;
+}
+
+.image-crop-src {
+  //margin-bottom: 45px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image-crop {
+  max-width: 100%;
+}
+
+.image-crop-process {
+  display: table;
+  height: 35px;
+  width: 100%;
+  background: #aa4141;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-style: bold;
+  padding-top: 10px;
+  position: fixed;
+  z-index: 1001;
+  bottom: 0;
+}
+
+.image-crop-chooser {
+  display: table;
+  height: 35px;
+  width: 50px;
+  background: #aa4141;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-style: bold;
+  padding-top: 10px;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,9 @@
+<div style="padding:10px">
+
+  <a routerLink="/crop" routerLinkActive="active">Select Image</a>
+
+  <div style="margin-top:10px">
+    <img id="image-show" [src]="this.cropService.base64 ? this.cropService.base64 : 'http://placehold.it/400x400'" style="width:50%;height:50%;border: 1px solid black">
+  </div>
+
+</div>

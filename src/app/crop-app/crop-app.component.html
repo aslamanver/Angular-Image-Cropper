@@ -1,0 +1,19 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.1/cropper.min.css" />
+
+<div class="image-crop-container">
+
+  <div (click)="onChoose()" class="image-crop-chooser">
+    :)
+    <input (change)="onChange($event.target.files)" style="display:none" accept="image/jpg" type="file" id="image-crop-file-chooser"/>
+  </div>
+
+  <div class="image-crop-src">
+    <img id="image-crop" src="/assets/images/img_1.png" crossorigin>
+  </div>
+
+  <div (click)="onUpload()" class="image-crop-process">
+    Crop
+  </div>
+
+</div>
